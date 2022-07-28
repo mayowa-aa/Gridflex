@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* For mobile phones*/
+
+@media only screen and (max-width: 375px){
+    body{background-color: brown;}
+}
+    /* For Desktop*/
+@media only screen and (max-width:1440px){
+    body {background-color: aqua;
+
+}
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+.grid-flex-link{ 
+font-size: 30px;
+color: blue; }
+
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+    text-align: left;
+    font-size: 15px;
+
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+
+    font-family: 'lexend deca';
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+button {
+
+    border-radius: 50px;
+    padding: 8px;
+    border-style: none;
+    font-family: 'big shoulders display';
+    font-weight: 700;
+    margin-top: 50px;
+
+}
+
+.first-content {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+.button-one {
+    color: hsl(31, 77%, 52%);
+
+}
+
+
+
+.second-content {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.button-two {
+    color: hsl(184, 100%, 22%);
+
+}
+
+.third-content {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.button-three {
+    color: hsl(179, 100%, 13%);
+
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'big shoulders display';
+    font-weight: 700;
+}
